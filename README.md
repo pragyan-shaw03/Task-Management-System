@@ -22,7 +22,7 @@ The `TaskManager` class manages a collection of tasks and provides methods to pe
 
 #### Methods:
 - `addTask(Task task)`: Adds a new task to the task list.
-- `completeTask(int taskIndex)`: Marks the task at the specified index as completed.
+- `setComplete()`: Marks the current task object as completed.
 - `displayTasks()`: Displays all tasks along with their details.
 
 ### TaskQuest
@@ -43,7 +43,3 @@ To use the TaskQuest application, follow these steps:
 
 ## Contributions
 Contributions to TaskQuest are welcome! Feel free to submit bug reports, feature requests, or pull requests via GitHub.
-
-## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
